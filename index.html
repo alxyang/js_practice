@@ -10,6 +10,7 @@
     <title>Javascript Practice</title>
     <!-- Add custom CSS here -->
     <link href="main.css" rel="stylesheet">
+    <link href="public/css/app.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -18,9 +19,16 @@
     <div class = "result">
     </div>
 
-
+    <p>Enter your phone number (with area code) and then click "Check".
+        <br>The expected format is like ###-###-####.</p>
+    <form action="#">
+      <input id = "phone_number" />
+      <button id="checkbutton">Check</button>
+    </form>
 
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="deferred.js"></script>
+  <!-- <script src="deferred.js"></script> -->
+  <script src="regex.js"></script>
+  <script src="public/js/app.min.js"></script>
 </body>
 </html>
